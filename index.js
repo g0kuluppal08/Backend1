@@ -6,7 +6,6 @@ const authRoutes = require('./routes/authRoutes');
 const bookingRoutes = require('./routes/bookingRoute');
 const courtsRoutes = require('./routes/courtRoutes');
 const centreRoutes = require('./routes/centreRoutes');
-import path from 'path';
 const cors=require('cors');
 dotenv.config();
 const app = express();
