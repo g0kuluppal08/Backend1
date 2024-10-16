@@ -17,7 +17,7 @@ app.use(bodyParser.json());
 
 app.use(
   cors({
-    origin: process.env.RONT_END_URL || "http://localhost:5173",
+    origin: process.env.RONT_END_URL || "https://frontend1-jf90.onrender.com",
     methods: ["GET", "POST", "PUT", "DELETE"],
     credentials: true,
   })
